@@ -1,0 +1,44 @@
+.kotak-2 {
+    background-color: #cccccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30vh;
+    width: 100%;
+    z-index: -2;
+}
+
+.kotak-2 h3 {
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 200px;
+    top: 10px;  
+    margin-bottom: 45px; 
+}
+
+.button-sewa a {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.text-1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button-sewa button {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 55px;
+    width: 200px;
+    background-color: #404040;
+    border: none;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.button-sewa button:hover {
+    background-color: #333333;
+    transition: .3s ease;
+}

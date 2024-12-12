@@ -1,0 +1,95 @@
+.badan {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/img/map-image.png);
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 567px) {
+    .badan {
+      display: block;
+      flex-direction: column;
+    }
+  }
+
+.kontener {
+    background-color: black; /* Warna kuning */
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px; /* Menentukan lebar maksimum form */
+    width: 555px; /* Menyesuaikan lebar form dengan lebar layar */
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: relative;
+    left: -150px;
+    z-index: 3;
+}
+
+.huruf2 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-lain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.judul label {
+    display: block;
+    margin-bottom: 5px;
+    color: orange;
+    font-weight: bold;
+}
+
+.area input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #ffff66; /* Warna orange */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit {
+    background-color: #f58634; /* Warna orange */
+    width: 160px;
+    height: 55px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.submit:hover {
+    background-color: #e0722c; /* Warna orange yang lebih gelap saat hover */
+}
+
+.con-maps iframe {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

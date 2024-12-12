@@ -1,0 +1,32 @@
+.p {
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+
+.gambar {
+    margin-right: 20px;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 200px;
+}
+
+.a {
+    position: relative;
+}
+
+.lorem p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pondok-umaru {
+    position: relative;
+    right: 180px;
+}
+
+.service {
+    width: 300px;
+    height: 200px;
+}

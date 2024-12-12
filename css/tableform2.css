@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("foto/pegunungan.png");
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"], input[type="date"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transition: .3s ease;
+}
+
+.button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.button button:hover {
+    background-color: #45a049;
+    transition: .3s ease;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: black;
+    margin: 20px auto 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    input[id="date"], input[id="date2"] {
+        width: 100%;
+        margin-top: 0;
+        left: 0;
+    }
+
+    .line {
+        margin-top: 10px;
+    }
+}

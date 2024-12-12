@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/houser.png" />
+
+    <link rel="stylesheet" href="css/tableform2.css">
+    <link rel="stylesheet" href="css/borders3.css">
+</head>
+<body>
+<a href="home.php" class="button"><button>Kembali</button></a>
+<center>
+    <div class="container">
+        <h1 class="h1">Sewa</h1>
+        <form onsubmit="sendMassage()" class="forum"> 
+            <a><label for="nama" id="1">Nama</label></a>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            
+            <label for="tipe" id="2">Tipe Kamar</label>
+            <select id="tipe" name="tipe">
+                <option value="pilih-tipe-kamar">Pilih Tipe Kamar</option>
+                <option value="Tipe-AA">Tipe AA</option>
+                <option value="Tipe-A2">Tipe A2</option>
+                <option value="Tipe-VIP">Tipe VIP</option>
+                <option value="Tipe-Vip">Tipe Vip</option>
+                <option value="Tipe-A">Tipe A</option>
+                <option value="Tipe-A3">Tipe A3</option>
+            </select>
+            
+            <label for="durasi" id="3">Durasi Sewa</label>
+            <input type="date" id="date" name="date" required>
+            <input type="date" id="date2" name="date2" required>
+
+            <input type="submit" value="Submit">
+
+            <div class="line"></div>
+        </form>
+    </div>
+</center>
+    
+    <script>
+        function sendMassage() {
+          const nama = document.getElementById('nama').value;
+          const tipe = document.getElementById('tipe').value;
+          const date = document.getElementById('date').value;
+          const date2 = document.getElementById('date2').value;
+
+          const url ="https://api.whatsapp.com/send?phone=6289601260674&text=Assalamualaikum%20Admin%0ASaya%20%22" + nama + "%22%0ATipe%20%22" + tipe + "%22%0ADurasi%20%22" + date + "%22%0ASampai%20Dengan%20%22%22" + date2 + "";
+        
+        window.open(url);
+        
+        }
+      </script>
+</body>
+</html>

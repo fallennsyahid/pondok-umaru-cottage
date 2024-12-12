@@ -1,0 +1,15 @@
+.sosmed {
+    height: 750px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #262626;
+    position: relative;
+    margin-left: 50px;
+    margin-right: -80px;
+    left: 120px;
+    border-radius: 10px;
+    z-index: 2;
+}
+

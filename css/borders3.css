@@ -1,0 +1,135 @@
+.border {
+    outline: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e617, #ffff1c);
+    box-shadow:  15px 15px 15px #66660a,
+                -15px -15px 15px #262626;
+}
+
+.border:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease;
+}
+
+.border-1 {
+    outline: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e617, #ffff1c);
+    box-shadow:  15px 15px 15px #66660a,
+                -15px -15px 15px #262626;
+}
+
+.border:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease;
+}
+
+.border-2 {
+    outline: none;
+    position: relative;
+    margin: 20px;
+    left: -120px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e617, #ffff1c);
+    box-shadow:  15px 15px 15px #66660a,
+                -15px -15px 15px #262626;
+}
+
+.border-2:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease;
+}
+
+.sekat:not(:first-child) {
+    margin: 10px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.garis {
+    width: 335px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: black;
+    position: relative;
+    bottom: 40px;
+    right: -482px;
+}
+
+.garis-2 {
+    width: 335px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: black;
+    position: relative;
+    bottom: 40px;
+    right: -482px;
+}
+
+.con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar {
+    width: 200px; /* Atur lebar gambar */
+    height: 200px; /* Atur tinggi gambar */
+    margin: 10px; /* Atur jarak antara gambar */
+}
+
+.gambar img {
+    width: 100%; /* Mengisi ruang yang tersedia di container */
+    height: 100%; /* Mengisi ruang yang tersedia di container */
+    object-fit: cover; /* Membuat gambar mengisi container tanpa mengubah proporsi */
+}
+
+.border-fal {
+    outline: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e617, #ffff1c);
+    box-shadow:  15px 15px 15px #66660a,
+                -15px -15px 15px #262626;
+}
+
+.border-fal:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease;
+}
+
+.container-testi {
+    display: flex;
+} 
+
+.border-testi {
+    height: 430px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #cccccc;
+    box-shadow:  19px 19px 38px #adadad,
+                -19px -19px 38px #ebebeb;
+}
+
+.border-testi img {
+    margin-top: 10px;
+}
+
+.border-testi h4 {
+    margin-bottom: 10px;
+}
+
+.border-testi p {
+    margin: 0 15px;
+}
+
+.border-testi:hover {
+    transform: translateY(-10px);
+    transition: all .5s ease;
+}
